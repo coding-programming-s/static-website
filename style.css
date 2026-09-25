@@ -1,0 +1,53 @@
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 900px;
+            margin: 20px 100px 100px 100px;
+            background-color: #39295D;
+            background-image: linear-gradient(to bottom, #39295D, #181A1b);
+        }
+
+        .light-mode {
+            background-color: #C6D6A2;
+            background-image: linear-gradient(to bottom, #C6D6A2, #E7E5E4);
+        }
+
+        .container {
+            display: inline-block;
+            padding: 20px 20px 20px 20px;
+            background: #F3F3F3;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px 5px #261748; 
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        ul li {
+            float: left;
+        }
+        
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        ul li a:hover {
+            background-color: #111111;
+        }
+
+        #liveclock {
+            color: white;
+        }
+
+        #wastedopportunity{
+            color: 333333;
+        }
